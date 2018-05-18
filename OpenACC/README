@@ -1,0 +1,4 @@
+example1: matmax
+example2: matadd
+example3: spmz
+example4: matmul

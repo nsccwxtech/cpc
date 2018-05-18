@@ -1,0 +1,123 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+A	./my_slave.h	/^	double *A;$/;"	m	struct:__anon1
+A	./my_slave.h	/^	double *A;$/;"	m	struct:__anon2
+ALLSYN	./my_slave.h	24;"	d
+B	./my_slave.h	/^	double *B;$/;"	m	struct:__anon1
+CC	./Makefile	/^CC = sw5cc.old$/;"	m
+CCFLAGS	./Makefile	/^CCFLAGS = -O3 -msimd $/;"	m
+COBJS	./Makefile	/^COBJS = func_2D5_slave.o $/;"	m
+COL	./my_slave.h	16;"	d
+COLS	./my_slave.h	14;"	d
+COLSYN	./my_slave.h	23;"	d
+Cal_ID	./func_2D5_slave.c	/^static int Cal_ID(int ids[8])$/;"	f	file:
+Cal_ID_RM	./func_2D5_slave.S	/^Cal_ID_RM:	# 0x750$/;"	l
+Cal_ID_RM	./func_2D5_slave.c	/^int Cal_ID_RM(int ids[8])$/;"	f
+EMPTY_GETC	./func_2D5_slave.c	/^static inline int EMPTY_GETC(void) { int var; asm volatile ("rcsr %0,0x35\\n":"=r"(var)); return var; }$/;"	f	file:
+EMPTY_GETR	./func_2D5_slave.c	/^static inline int EMPTY_GETR(void) { int var; asm volatile ("rcsr %0,0x34\\n":"=r"(var)); return var; }$/;"	f	file:
+FInfo	./my_slave.h	/^} FInfo;$/;"	t	typeref:struct:__anon2
+FULL_PUT	./func_2D5_slave.c	/^static inline int FULL_PUT(void) { int var; asm volatile ("rcsr %0,0x36\\n":"=r"(var)); return var; }$/;"	f	file:
+HALO	./func_2D5_slave.c	200;"	d	file:
+HALO	./func_2D5_slave.c	282;"	d	file:
+HALO	./func_2D5_slave.c	304;"	d	file:
+HALO	./func_2D5_slave.c	34;"	d	file:
+HALO	./func_2D5_slave.c	386;"	d	file:
+HALO	./func_2D5_slave.c	410;"	d	file:
+HALO	./func_2D5_slave.c	551;"	d	file:
+HALO	./func_2D5_slave.c	66;"	d	file:
+Info	./my_slave.h	/^} Info;$/;"	t	typeref:struct:__anon1
+L	./my_slave.h	/^	int M,N,L;$/;"	m	struct:__anon1
+L	./my_slave.h	/^	int M,N,L;$/;"	m	struct:__anon2
+LB	./my_slave.h	/^	double *LB;$/;"	m	struct:__anon2
+LIBS	./Makefile	/^LIBS    = -hybrid -lslave$/;"	m
+LNZ	./func_2D5_slave.c	413;"	d	file:
+LNZ	./func_2D5_slave.c	549;"	d	file:
+M	./my_slave.h	/^	int M,N,L;$/;"	m	struct:__anon1
+M	./my_slave.h	/^	int M,N,L;$/;"	m	struct:__anon2
+MAX	./fact.c	13;"	d	file:
+MAX	./solve.c	13;"	d	file:
+MAX_SIZE_DOUBLE	./my_slave.h	11;"	d
+MAX_SIZE_DOUBLEV4	./my_slave.h	12;"	d
+MC	./Makefile	/^MC = mpicc$/;"	m
+MCFLAGS	./Makefile	/^MCFLAGS = -O3 -msimd $/;"	m
+MIN	./fact.c	14;"	d	file:
+MIN	./solve.c	14;"	d	file:
+MLEN	./func_2D5_slave.c	201;"	d	file:
+MLEN	./func_2D5_slave.c	283;"	d	file:
+MLEN	./func_2D5_slave.c	305;"	d	file:
+MLEN	./func_2D5_slave.c	35;"	d	file:
+MLEN	./func_2D5_slave.c	387;"	d	file:
+MLEN	./func_2D5_slave.c	411;"	d	file:
+MLEN	./func_2D5_slave.c	552;"	d	file:
+MLEN	./func_2D5_slave.c	67;"	d	file:
+MOBJS	./Makefile	/^MOBJS = func_2D5.o $/;"	m
+N	./my_slave.h	/^	int M,N,L;$/;"	m	struct:__anon1
+N	./my_slave.h	/^	int M,N,L;$/;"	m	struct:__anon2
+OFFSET	./func_2D5.c	100;"	d	file:
+OFFSET	./func_2D5.c	63;"	d	file:
+OFFSET	./func_2D5_slave.c	409;"	d	file:
+OFFSET	./func_2D5_slave.c	553;"	d	file:
+REG_GETC	./my_slave.h	21;"	d
+REG_GETR	./my_slave.h	20;"	d
+REG_PUTC	./my_slave.h	19;"	d
+REG_PUTR	./my_slave.h	18;"	d
+RNZ	./func_2D5_slave.c	412;"	d	file:
+RNZ	./func_2D5_slave.c	548;"	d	file:
+ROW	./my_slave.h	17;"	d
+ROWS	./my_slave.h	15;"	d
+ROWSYN	./my_slave.h	22;"	d
+SLAVES	./my_slave.h	13;"	d
+TIME	./fact.c	12;"	d	file:
+TIME	./solve.c	12;"	d	file:
+UB	./my_slave.h	/^	double *UB;$/;"	m	struct:__anon2
+UNZ	./func_2D5_slave.c	414;"	d	file:
+UNZ	./func_2D5_slave.c	550;"	d	file:
+WXL_DMA	./my_slave.h	43;"	d
+WXL_DMA_NEW	./my_slave.h	44;"	d
+WXL_DMA_SET	./my_slave.h	25;"	d
+WXL_DMA_SET_NOSIZE	./my_slave.h	33;"	d
+WXL_DMA_SET_SIZE	./my_slave.h	39;"	d
+X	./my_slave.h	/^	double *X;$/;"	m	struct:__anon1
+_FUNC_H_	./func.h	9;"	d
+_MY_SLAVE_H_	./my_slave.h	9;"	d
+backward_2D5	./func_2D5.c	/^void backward_2D5(double *X, double *A, double *B, int M, int N, int L)$/;"	f
+backward_2D5_MPE	./func_2D5.c	/^void backward_2D5_MPE(double *X, double *_A, double *B, int M, int N, int L)$/;"	f
+backward_2D5_slave	./func_2D5_slave.S	/^backward_2D5_slave:	# 0x2190$/;"	l
+backward_2D5_slave	./func_2D5_slave.c	/^void backward_2D5_slave(void *_ptr)$/;"	f
+backward_2D5_slave_kernel	./func_2D5_slave.S	/^backward_2D5_slave_kernel:	# 0xfc0$/;"	l
+backward_2D5_slave_kernel	./func_2D5_slave.c	/^int backward_2D5_slave_kernel(double *X, double *A, double *B, int M, int N, int L)$/;"	f
+check	./fact.c	/^void check(double *A, double *B, int length, int M, int N, int L, int lnz, int unz)$/;"	f
+check	./solve.c	/^void check(double *A, double *B, int length, int M, int N, int L)$/;"	f
+comp	./fact.c	/^int comp(const void *a, const void *b)$/;"	f
+comp	./solve.c	/^int comp(const void *a, const void *b)$/;"	f
+fact_2D5	./func_2D5.c	/^void fact_2D5(double *LB, double *UB, double *A, int M, int N, int L)$/;"	f
+fact_2D5_MPE	./func_2D5.c	/^void fact_2D5_MPE(double *LB, double *UB, double *A, int M, int N, int L)$/;"	f
+fact_2D5_slave	./func_2D5_slave.S	/^fact_2D5_slave:	# 0x23a0$/;"	l
+fact_2D5_slave	./func_2D5_slave.c	/^void fact_2D5_slave(void *_ptr)$/;"	f
+fact_2D5_slave_kernel	./func_2D5_slave.S	/^fact_2D5_slave_kernel:	# 0x1740$/;"	l
+fact_2D5_slave_kernel	./func_2D5_slave.c	/^int fact_2D5_slave_kernel(double *LB, double *UB, double *A, int M, int N, int L)$/;"	f
+forward_2D5	./func_2D5.c	/^void forward_2D5(double *X, double *A, double *B, int M, int N, int L)$/;"	f
+forward_2D5_MPE	./func_2D5.c	/^void forward_2D5_MPE(double *X, double *_A, double *B, int M, int N, int L)$/;"	f
+forward_2D5_slave	./func_2D5_slave.S	/^forward_2D5_slave:	# 0x2090$/;"	l
+forward_2D5_slave	./func_2D5_slave.c	/^void forward_2D5_slave(void *_ptr)$/;"	f
+forward_2D5_slave_kernel	./func_2D5_slave.S	/^forward_2D5_slave_kernel:	# 0x890$/;"	l
+forward_2D5_slave_kernel	./func_2D5_slave.c	/^int forward_2D5_slave_kernel(double *X, double *A, double *B, int M, int N, int L)$/;"	f
+init	./fact.c	/^void init(double *data, int length)$/;"	f
+init	./solve.c	/^void init(double *data, int length)$/;"	f
+init0	./fact.c	/^void init0(double *data, int length)$/;"	f
+init0	./solve.c	/^void init0(double *data, int length)$/;"	f
+magic_touch_long_long	./func_2D5_slave.S	/^magic_touch_long_long:	# 0x0$/;"	l
+magic_touch_long_long	./func_2D5_slave.c	/^void magic_touch_long_long(int *v)$/;"	f
+main	./fact.c	/^int main(int argc, char **argv)$/;"	f
+main	./solve.c	/^int main(int argc, char **argv)$/;"	f
+sequential_2D5_slave	./func_2D5_slave.S	/^sequential_2D5_slave:	# 0x2290$/;"	l
+sequential_2D5_slave	./func_2D5_slave.c	/^void sequential_2D5_slave(void *_ptr)$/;"	f
+sequential_2D5_slave_kernel	./func_2D5_slave.S	/^sequential_2D5_slave_kernel:	# 0x40$/;"	l
+sequential_2D5_slave_kernel	./func_2D5_slave.c	/^void sequential_2D5_slave_kernel(double *X, double *A, double *B, int M, int N, int L)$/;"	f
+slave_Cal_ID	./func_2D5_slave.S	/^slave_Cal_ID:	# 0x610$/;"	l
+stest	./func_2D5_slave.S	/^stest:	# 0x20$/;"	l
+stest	./func_2D5_slave.c	/^void stest()$/;"	f
