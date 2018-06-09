@@ -106,7 +106,7 @@ int main() {
 	{
 		for (j = 2; j < col - 2; j++ )
 		{
-			if (abs(A_new[i][j] - B_new[i][j]) > 1e-6)
+			if (fabs(A_new[i][j] - B_new[i][j]) > 1e-6)
 				printf("error\n");
 
 		}
